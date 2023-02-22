@@ -54,10 +54,10 @@ export const MovieDetail = () => {
               <span className="mx-1 font-bold">Release Date:</span>
               <span>{movie.release_date}</span>
             </p>
-            <p className="ml-1 my-4 w-fit bg-gray-900 border border-slate-600 rounded-lg p-3 text-center text-white hover:bg-gray-700 hover:cursor-pointer">
+            <a href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="noreferrer" className="ml-1 my-4 w-fit bg-gray-900 border border-slate-600 rounded-lg p-3 text-center text-white hover:bg-gray-700 hover:cursor-pointer">
               <span className="font-bold">IMDB Code: </span>
-              <a href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="noreferrer">{movie.imdb_id}</a>
-            </p>
+              <span>{movie.imdb_id}</span>
+            </a>
         </div>
       </section>
     </main>

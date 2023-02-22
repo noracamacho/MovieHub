@@ -1,6 +1,6 @@
 # MovieHub Web App
 
-This app allows users to search for movies by title and view popular, upcoming, and top-rated movies. It was built using [React](https://reactjs.org/) and [Vite](https://vitejs.dev/), and uses [Tailwind CSS](https://tailwindcss.com/) for styling.
+This app allows users to search for movies by title and view popular, upcoming, and top-rated movies. It was built using [React](https://reactjs.org/) and uses [Tailwind CSS](https://tailwindcss.com/) for styling.
 
 ## Features
 

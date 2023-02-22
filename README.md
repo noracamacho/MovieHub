@@ -33,7 +33,7 @@ To search for a movie, enter a title in the search bar and press enter. The app 
 
 To view popular, upcoming, or top-rated movies, click on the corresponding tab in the navigation bar.
 
-## License
+<!-- ## License
 
-This app is licensed under the [MIT License](https://github.com/noracamacho/MovieHub.git/blob/main/LICENSE).
+This app is licensed under the [MIT License](https://github.com/noracamacho/MovieHub.git/blob/main/LICENSE). -->
 

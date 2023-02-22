@@ -32,11 +32,11 @@ export const Header = () => {
 
   return (
     <header>
-          <nav className="bg-white border-b-2 border-gray-200 px-3 md:px-6 py-2 dark:bg-gray-900 dark:border-b-1 dark:border-gray-900">
+          <nav className="bg-white border-b-2 border-gray-200 px-3 lg:px-8 py-2 dark:bg-gray-900 dark:border-b-1 dark:border-gray-900">
             <div className="flex flex-wrap justify-between items-center mx-auto px-0">
               <Link to="/" className="flex items-center">
                   <img src={logo} className="h-10 mr-2" alt="MovieHub Logo" />
-                  <span className=" text-xl nav-title self-center pt-1 lg:text-3xl md:hidden lg:block font-semibold whitespace-nowrap dark:text-white">MovieHub</span>
+                  <span className=" text-xl nav-title self-center pt-1 lg:text-3xl lg:block font-semibold whitespace-nowrap dark:text-white">MovieHub</span>
               </Link>
               <div id='mobile-nav' className="flex md:order-2">
 
@@ -80,21 +80,21 @@ export const Header = () => {
                     <input type="text" name="search" id="search-navbar" className="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search..." autoComplete='off'/>
                   </form>
                   </div>
-                  <ul className="flex flex-col p-4 pt-5 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row lg:space-x-8 md:space-x-3 md:mt-0 text-xl md:font-bold md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                  <ul className="flex flex-col p-4 pt-5 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row lg:space-x-8 md:space-x-3 md:mt-0 text-xl md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
-                      <NavLink to="/" className={ ({isActive}) => isActive ? activeClass : inactiveClass } end><span className=" md:text-xl lg:text-2xl">Home</span></NavLink>
+                      <NavLink to="/" className={ ({isActive}) => isActive ? activeClass : inactiveClass } end><span className="md:text-lg lg:text-2xl">Home</span></NavLink>
                     </li>
                     <li>
-                      <NavLink to="/movies/popular" className={ ({isActive}) => isActive ? activeClass : inactiveClass }><span className="md:text-xl lg:text-2xl">Popular</span></NavLink>
+                      <NavLink to="/movies/popular" className={ ({isActive}) => isActive ? activeClass : inactiveClass }><span className="md:text-lg lg:text-2xl">Popular</span></NavLink>
                     </li>
                     <li>
-                      <NavLink to="/movies/top" className={ ({isActive}) => isActive ? activeClass : inactiveClass }><span className="md:text-xl lg:text-2xl">Top Rated</span></NavLink>
+                      <NavLink to="/movies/top" className={ ({isActive}) => isActive ? activeClass : inactiveClass }><span className="md:text-lg lg:text-2xl">Top Rated</span></NavLink>
                     </li>
                     {/* <li>
                       <NavLink to="movies/nowPlaying" className={ ({isActive}) => isActive ? activeClass : inactiveClass }>Now Playing</NavLink>
                     </li> */}
                     <li>
-                      <NavLink to="/movies/upcoming" className={ ({isActive}) => isActive ? activeClass : inactiveClass }><span className="md:text-xl lg:text-2xl">Upcoming</span></NavLink>
+                      <NavLink to="/movies/upcoming" className={ ({isActive}) => isActive ? activeClass : inactiveClass }><span className="md:text-lg lg:text-2xl">Upcoming</span></NavLink>
                     </li>
                   </ul>
                 </div>

@@ -7,7 +7,7 @@ export const MovieList = ({ apiPath, title }) => {
   // const { data: movies }= useFetch("https://api.themoviedb.org/3/movie/now_playing?api_key=fd1357778f9254c05693a6bd1fa0a042");
   const { data: movies }= useFetch(apiPath);
 
-  const tabTitle = useTabTitle(title);
+  useTabTitle(title);
 
   return (
     <main>

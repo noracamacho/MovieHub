@@ -9,7 +9,7 @@ export const MovieSearch = ({ apiPath }) => {
   const queryParams = searchParams.get("q");
   const { data: movies }= useFetch(apiPath, queryParams);
 
-  const tabTitle = useTabTitle( queryParams );
+  useTabTitle( queryParams );
 
   return (
     <main>

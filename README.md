@@ -33,6 +33,9 @@ To search for a movie, enter a title in the search bar and press enter. The app 
 
 To view popular, upcoming, or top-rated movies, click on the corresponding tab in the navigation bar.
 
+
+# See demo -> https://moviehub-webapp.netlify.app
+
 <!-- ## License
 
 This app is licensed under the [MIT License](https://github.com/noracamacho/MovieHub.git/blob/main/LICENSE). -->

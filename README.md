@@ -35,5 +35,5 @@ To view popular, upcoming, or top-rated movies, click on the corresponding tab i
 
 ## License
 
-This app is licensed under the [MIT License](https://github.com/cristianmihai01/photography-main.git/blob/main/LICENSE).
+This app is licensed under the [MIT License](https://github.com/noracamacho/MovieHub.git/blob/main/LICENSE).
 

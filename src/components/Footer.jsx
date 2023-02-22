@@ -8,7 +8,7 @@ export const Footer = () => {
     <div className="sm:flex flex justify-between sm:items-center">
         <Link to="/" className="flex items-center mb-4 sm:mb-0">
             <img src={Logo} className="h-8 mr-3" alt="Cinematic Logo" />
-            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">Cinematic</span>
+            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">MovieHub</span>
         </Link>
         <ul className="flex flex-wrap justify-center items-center mb-3 text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>

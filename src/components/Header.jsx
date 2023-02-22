@@ -32,11 +32,11 @@ export const Header = () => {
 
   return (
     <header>
-          <nav className="bg-white border-b-2 border-gray-200 px-6 sm:px-6 py-2 dark:bg-gray-900 dark:border-b-1 dark:border-gray-900">
-            <div className="flex flex-wrap justify-between items-center mx-auto px-1">
+          <nav className="bg-white border-b-2 border-gray-200 px-3 md:px-6 py-2 dark:bg-gray-900 dark:border-b-1 dark:border-gray-900">
+            <div className="flex flex-wrap justify-between items-center mx-auto px-0">
               <Link to="/" className="flex items-center">
                   <img src={logo} className="h-10 mr-2" alt="MovieHub Logo" />
-                  <span className=" text-2xl nav-title self-center pt-3 lg:text-3xl md:hidden sm:text-3xl sm:block lg:block font-semibold whitespace-nowrap dark:text-white">MovieHub</span>
+                  <span className=" text-xl nav-title self-center pt-1 lg:text-3xl sm:text-lg lg:block font-semibold whitespace-nowrap dark:text-white">MovieHub</span>
               </Link>
               <div id='mobile-nav' className="flex md:order-2">
 

@@ -1,5 +1,7 @@
 # MovieHub Web App
 
+## See demo -> https://moviehub-webapp.netlify.app
+
 This app allows users to search for movies by title and view popular, upcoming, and top-rated movies. It was built using [React](https://reactjs.org/) and uses [Tailwind CSS](https://tailwindcss.com/) for styling.
 
 ## Features
@@ -33,8 +35,6 @@ To search for a movie, enter a title in the search bar and press enter. The app 
 
 To view popular, upcoming, or top-rated movies, click on the corresponding tab in the navigation bar.
 
-
-# See demo -> https://moviehub-webapp.netlify.app
 
 <!-- ## License
 

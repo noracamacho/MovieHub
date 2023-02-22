@@ -22,7 +22,7 @@ export const MovieDetail = () => {
 
   return (
     <main>
-      <section className="flex flex-row justify-around  flex-wrap py-5">
+      <section className="flex flex-row justify-around  flex-wrap pt-4 pb-2">
         <div className="max-w-sm">
             <img className="rounded" src={movieImage} alt={movie.title} />
         </div>
@@ -30,7 +30,7 @@ export const MovieDetail = () => {
             <h1 className="text-4xl font-bold my-3 text-center lg:text-left">{movie.title}</h1>
             <p className="my-4">{movie.overview}</p>
             { movie.genres ? (
-                  <p className="my-7 flex-wrap gap-2">
+                  <p className="my-7 flex flex-wrap justify-evenly gap-2">
                       {
                         movie.genres?.map((genre) => (
                           <span key={genre.id} className="mr-2 border border-gray-200 rounded dark:border-gray-600 p-2">{genre.name}</span>
@@ -46,18 +46,23 @@ export const MovieDetail = () => {
                 <span className="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
                 <span className="text-gray-900 dark:text-white text-sm">{movie.vote_count} Reviews</span>
             </div>
-            <p className="my-4">
-              <span className="mx-1 font-bold">Runtime:</span>
-              <span>{movie.runtime} min.</span>
-            </p>
-            <p className="my-4">
-              <span className="mx-1 font-bold">Release Date:</span>
-              <span>{movie.release_date}</span>
-            </p>
-            <a href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="noreferrer" className="ml-1 my-4 w-fit bg-gray-900 border border-slate-600 rounded-lg p-3 text-center text-white hover:bg-gray-700 hover:cursor-pointer">
-              <span className="font-bold">IMDB Code: </span>
-              <span>{movie.imdb_id}</span>
-            </a>
+          
+              <p className="my-3">
+                <span className="mx-1 font-bold text-sm">Runtime:</span>
+                <span>{movie.runtime} min.</span>
+              </p>
+              <p className="my-3">
+                <span className="mx-1 font-bold text-sm">Release Date:</span>
+                <span>{movie.release_date}</span>
+              </p>
+              <p className="py-4">
+                <a href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="noreferrer" className="ml-1 mt-4 w-fit bg-gray-900 border border-slate-600 rounded-lg p-3 text-center text-s, text-white hover:bg-gray-700 hover:cursor-pointer">
+                  <span className="font-bold">{`IMDB Link`}</span>
+                  {/* <span className="font-bold">{`IMDB Code: ${movie.imdb_id}`}</span> */}
+                  <span></span>
+                </a>
+              </p>
+            
         </div>
       </section>
     </main>

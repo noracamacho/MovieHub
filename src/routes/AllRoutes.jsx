@@ -6,7 +6,7 @@ export const AllRoutes = () => {
     <div className=" bg-gray-100 dark:bg-slate-800">
         <Routes>
             {/* Now Playing */}
-            <Route path="/" element={<MovieList apiPath='movie/now_playing' title="Home"/>} />
+            <Route path="/" element={<MovieList apiPath='movie/now_playing' title="Showing"/>} />
             <Route path="/movie/:id" element={<MovieDetail />} />
             <Route path="/movies/popular" element={<MovieList apiPath='movie/popular' title="Polular"/>} />
             <Route path="/movies/top" element={<MovieList apiPath='movie/top_rated' title="Top"/>} />

@@ -57,10 +57,8 @@ export const MovieDetail = () => {
                 <span>{movie.release_date}</span>
               </p>
               <p className="py-4">
-                <a href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="noreferrer" className="ml-1 mt-4 w-fit bg-gray-900 border border-slate-600 rounded-lg p-3 text-center text-sm text-white hover:bg-gray-700 hover:cursor-pointer">
-                  <span className="font-bold">IMDB Link</span>
-                  {/* <span className="font-bold">{`IMDB Code: ${movie.imdb_id}`}</span> */}
-                  <span></span>
+                <a href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="noreferrer" className="ml-1 mt-4 bg-gray-900 border border-slate-600 rounded-lg px-3 pt-3 pb-4 text-center text-sm text-white hover:bg-gray-700 hover:cursor-pointer">
+                  IMDB Link
                 </a>
               </p>
             

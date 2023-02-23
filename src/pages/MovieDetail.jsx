@@ -31,7 +31,7 @@ export const MovieDetail = () => {
             <h1 className="text-4xl font-bold my-3 text-center lg:text-left">{movie.title}</h1>
             <p className="my-4">{movie.overview}</p>
             { movie.genres ? (
-                  <p className="my-7 flex flex-wrap justify-evenly gap-2">
+                  <p className="my-7 flex flex-wrap justify-start gap-2">
                       {
                         movie.genres?.map((genre) => (
                           <span key={genre.id} className="mr-2 border border-gray-200 rounded dark:border-gray-600 p-2">{genre.name}</span>
@@ -58,7 +58,7 @@ export const MovieDetail = () => {
               </p>
               <p className="py-4">
                 <a href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="noreferrer" className="ml-1 mt-4 bg-gray-900 border border-slate-600 rounded-lg px-3 pt-4 pb-4 text-center text-sm text-white hover:bg-gray-700 hover:cursor-pointer">
-                  IMBd
+                  View on IMDb
                 </a>
               </p>
             

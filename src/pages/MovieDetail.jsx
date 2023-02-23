@@ -58,7 +58,7 @@ export const MovieDetail = () => {
               </p>
               <p className="py-4">
                 <a href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="noreferrer" className="ml-1 mt-4 bg-gray-900 border border-slate-600 rounded-lg px-3 pt-4 pb-4 text-center text-sm text-white hover:bg-gray-700 hover:cursor-pointer">
-                  IMDB Link
+                  IMBd
                 </a>
               </p>
             

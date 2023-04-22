@@ -14,6 +14,7 @@ export const useFetch = (apiPath, queryParams="") => {
           // console.log(apiPath);
         }
         fetchMovies();
+        console.log('fetch');
       }, [URL]);
 
 

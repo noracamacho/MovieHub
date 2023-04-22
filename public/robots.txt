@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /movies/popular
+Allow: /movies/top
+Allow: /movies/upcoming
